@@ -2,7 +2,7 @@
 Panorama image generation using Image Stitching with ORB 
 
 # Image Stitching for Panoramic Image Generation
-This Python project implements an image stitching algorithm to generate panoramic images from a series of overlapping photographs. The project uses OpenCV for feature detection, matching, and homography computation to align and combine multiple images into a single wide-angle panorama.
+This Python project implements an image stitching algorithm to generate panoramic images from a series of overlapping photographs. The project uses OpenCV and ORB for feature detection, matching, and homography computation to align and combine multiple images into a single wide-angle panorama.
 
 # Features
 Feature Detection & Matching: The code uses the ORB (Oriented FAST and Rotated BRIEF) algorithm for detecting keypoints and computing feature descriptors. It then matches features between images using a brute-force matcher with a ratio test to filter out weak matches.
